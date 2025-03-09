@@ -1,0 +1,12 @@
+# Force HTTP if on HTTPS (for IPTV streams)
+RewriteEngine On
+RewriteCond %{HTTPS} on
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Enable rewrite engine
+RewriteEngine On
+
+# Redirect all SPA routes to index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ /index.html [L]

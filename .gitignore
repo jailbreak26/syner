@@ -1,0 +1,17 @@
+# Logs
+logs/
+*.log
+
+# Dependency directories
+node_modules/
+
+# Build directories
+build/
+dist/
+
+# Environment files
+.env
+
+# Editor settings
+.vscode/
+*.swp
