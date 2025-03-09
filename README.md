@@ -1,4 +1,6 @@
 # React + TypeScript + Vite
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/jailbreak26/syner.git)
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
